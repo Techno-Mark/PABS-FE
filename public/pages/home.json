@@ -1,0 +1,37 @@
+{
+    "title": "Home Page",
+    "metaTitle": "New Pabs Meta Title",
+    "metaDescription": "New Pabs Meta Desc",
+    "metaKeywords": "New Pabs Meta Keywords",
+    "formatData": [
+      {
+        "Hero Sections": {
+          "ctaUrl": "/",
+          "ctaText": "Get Started",
+          "subetext": "Untying your human and financial resources to refocus on business expansion and more billing",
+          "headingText": "OUTSOURCED ACCOUNTING SERVICES"
+        }
+      },
+      {
+        "Box information": {
+          "data": [
+            {
+              "icon": "/images/service1.svg",
+              "text": "ISO 27001 & 9001 Certified Company"
+            },
+            {
+              "icon": "/images/service2.svg",
+              "text": "High Quality Services Guaranteed"
+            },
+            {
+              "icon": "/images/service3.svg",
+              "text": "Industry Expertise and Accuracy"
+            }
+          ],
+          "title": "OUTSOURCED ACCOUNTING SERVICES THAT DRIVE BUSINESS GROWTH",
+          "subTitle": "Outsourced Accounting Service is a catalyst for a big, long-term transformation. Imagine you’ve got a special pass to an array of top-notch skills, the latest technological advancement, processes as tight as a drum and a league of qualified professionals seamlessly joining as an extension of your in-house team. <br> But wait, there is more to this. Meet PABS, the trailblazer in providing customized accounting solutions. We are not an average Outsourced Accounting Service provider; we’re the experts who don’t just cut overhead costs but also propel your financial visibility and grow to new heights. <br> Customized strategies that pack a punch are our secret sauce. So, if you are ready to bid farewell to mundane accounting woes, let your curiosity take the lead and explore the PABS phenomenon. <br> Intrigued? Let’s chat and explore how our outsourced accounting services can elevate your financial journey!"
+        }
+      }
+    ]
+  }
+  

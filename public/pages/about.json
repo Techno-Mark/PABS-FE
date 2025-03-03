@@ -1,0 +1,22 @@
+{
+    "title": "about Page",
+    "metaTitle": "New Pabs Meta Title",
+    "metaDescription": "New Pabs Meta Desc",
+    "metaKeywords": "New Pabs Meta Keywords",
+    "formatData": [
+      {
+        "Hero Sections": {
+          "ctaUrl": "/",
+          "ctaText": "Book Your Free Call Now",
+          "headingText": "Empower Your Fast-Growing Organization Quickly"
+        }
+      },
+      {
+        "Box information": {
+          "title": "Let’s translate your idea into reality with PABS.",
+          "subTitle": "As startup technology partners, we craft products for global startups, contributing significantly to their success stories."
+        }
+      }
+    ]
+  }
+  
