@@ -1,16 +1,6 @@
 import React from 'react';
 import Image from 'next/image'
-
-interface BoxInfoItem {
-  icon: string;
-  text: string;
-}
-
-interface BoxInformationProps {
-  title: string;
-  subTitle: string;
-  data: BoxInfoItem[];
-}
+import { BoxInformationProps } from '@/utils/types';
 
 const BoxInformation: React.FC<BoxInformationProps> = ({ title, subTitle, data }) => {
   return (

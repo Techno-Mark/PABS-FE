@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import dynamic from "next/dynamic";
 import axios from "axios";
 import Head from "next/head";
+import { BoxInformationProps, HeroSectionProps } from "@/utils/types";
 
 interface SectionData {
   [key: string]: Record<string, unknown>; 
@@ -15,8 +16,12 @@ interface PageData {
   formatData: SectionData[];
 }
 
+interface SectionComponents {
+  "Hero Sections": React.ComponentType<HeroSectionProps>;
+  "Box information": React.ComponentType<BoxInformationProps>;
+}
 
-const SECTIONS: Record<string, React.ComponentType<any>> = {
+const SECTIONS: SectionComponents = {
   "Hero Sections": dynamic(() => import("@/components/sections/herosection/HeroSection")),
   "Box information": dynamic(() => import("@/components/sections/boxinformation/boxinformation")),
 };
@@ -36,7 +41,8 @@ export default function DynamicPage({ pageData }: { pageData: PageData }) {
 
       {pageData.formatData?.map((sectionObj: SectionData, index: number) => {
         const sectionName = Object.keys(sectionObj)[0];
-        const SectionComponent = SECTIONS[sectionName] || null;
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const SectionComponent: any = (sectionName in SECTIONS) ? SECTIONS[sectionName as keyof SectionComponents] : null;
         return SectionComponent ? <SectionComponent key={index} {...sectionObj[sectionName]} /> : null;
       })}
     </>

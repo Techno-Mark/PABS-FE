@@ -1,13 +1,8 @@
 import React from "react";
 import Image from 'next/image'
+import { HeroSectionProps } from "@/utils/types";
 
-interface HeroSectionProps {
-  headingText: string;
-  subetext: string;
-  ctaText: string;
-}
-
-const HeroSection: React.FC<HeroSectionProps> = ({ headingText, ctaText , subetext}) => {
+const HeroSection: React.FC<HeroSectionProps> = ({ headingText, subetext}) => {
   return (
     <section className="flex py-20 bg-[url('/images/bg.png')] bg-center">
       <div className="container 2xl:max-w-[1720px] mx-auto">
