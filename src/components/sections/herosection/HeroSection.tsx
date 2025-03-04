@@ -9,7 +9,7 @@ interface HeroSectionProps {
 
 const HeroSection: React.FC<HeroSectionProps> = ({ headingText, ctaText , subetext}) => {
   return (
-    <section className="flex py-20 bg-[url('/images/bg.png')]">
+    <section className="flex py-20 bg-[url('/images/bg.png')] bg-center">
       <div className="container 2xl:max-w-[1720px] mx-auto">
         <div className="flex justify-between gap-[100px]">
           <div className="">
