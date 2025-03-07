@@ -21,13 +21,13 @@ interface IndustryCard {
 }
 
 const CustomPrevArrow: React.FC<{ onClick?: () => void }> = ({ onClick }) => (
-    <button onClick={onClick} className="arrowbtn absolute right-[130px] top-[-50px] xl:top-[-100px] border border-[var(--secondary-color)] hover:border-[#0078C8] transform text-white p-3 rounded-full transition-all">
+    <button onClick={onClick} className="arrowbtn absolute right-[130px] bottom-[-70px] lg:bottom-auto lg:top-[-100px] border border-[var(--secondary-color)] hover:border-[#0078C8] transform text-white p-3 rounded-full transition-all">
         <PrevArrow />
     </button>
 );
 
 const CustomNextArrow: React.FC<{ onClick?: () => void }> = ({ onClick }) => (
-    <button onClick={onClick} className="arrowbtn absolute right-[50px] top-[-50px] xl:top-[-100px] border border-[var(--secondary-color)] hover:border-[#0078C8] transform text-white p-3 rounded-full transition-all">
+    <button onClick={onClick} className="arrowbtn absolute right-[50px] bottom-[-70px] lg:bottom-auto lg:top-[-100px] border border-[var(--secondary-color)] hover:border-[#0078C8] transform text-white p-3 rounded-full transition-all">
         <NextArrow />
     </button>
 );
@@ -56,9 +56,9 @@ const Industry: React.FC<IndustryProps> = ({ title, subTitle, data }) => {
     };
 
     return (
-        <section className="py-10 xl:py-20">
+        <section className="pt-10 pb-24 xl:py-20">
             <div className="container mx-auto">
-                <div className="mb-20 xl:mb-8 w-full lg:max-w-1/2">
+                <div className="mb-8 w-full lg:max-w-1/2">
                     <TitleSection 
                         title={title}
                         desc={subTitle}
@@ -69,11 +69,11 @@ const Industry: React.FC<IndustryProps> = ({ title, subTitle, data }) => {
                 <Slider {...sliderSettings} className={`relative ${styles.parent}`}>
                     {data.map((industry, index) => (
                         <div key={index}>
-                            <div className={`relative px-5 pt-6 border-r overflow-hidden group before:absolute before:inset-0 before:bg-black before:opacity-0 before:transition-opacity before:duration-500 hover:before:opacity-60 before:z-1 ${styles.industrycontainer}`}>
+                            <div className={`relative px-4 xl:px-5 pt-6 border-r overflow-hidden group before:absolute before:inset-0 before:bg-black before:opacity-0 before:transition-opacity before:duration-500 hover:before:opacity-60 before:z-1 ${styles.industrycontainer}`}>
                                 <h3 className="relative text-2xl font-bold text-black mb-6 group-hover:text-white group-hover:z-10">{industry.heading}</h3>
                                 <p className="relative text-base font-normal text-black mb-9 group-hover:text-white group-hover:z-10 min-h-20">{industry.text}</p>
                                 <Image src={industry.imageUrl} width={500} height={310} alt={industry.heading}
-                                    className="w-full h-auto object-cover transition-transform duration-500 ease-in-out group-hover:scale-[3]"
+                                    className="w-full h-auto object-cover transition-transform duration-500 ease-in-out group-hover:scale-[3.2]"
                                 />
                                 <Button text="Read more" href={industry.ctaUrl} className="hidden absolute left-5 bottom-10 !py-3 !px-10 z-1 group-hover:flex"/>
                             </div>

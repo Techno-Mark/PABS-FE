@@ -33,7 +33,7 @@ const TrustSection: React.FC<TrustSectionProps> = ({ title, subTitle, icons }) =
         <section className="py-6 bg-[var(--primary-bg)]">
             <div className="container  2xl:max-w-[1720px] mx-auto">
                 <h2 className="text-xl font-normal text-black">{title}</h2>
-                <p className="text-xl font-semibold text-[var(--primary-color)] mb-4 [&_*]:mx-[10px]" dangerouslySetInnerHTML={{__html: subTitle}}/>
+                <p className="text-xl font-semibold text-[var(--primary-color)] mb-4 [&_*]:mx-[10px] break-words" dangerouslySetInnerHTML={{__html: subTitle}}/>
                 <Slider {...settings}>
                     {icons.map((item, index) => (
                         <div key={index} className="p-5 mr-10">

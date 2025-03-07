@@ -28,7 +28,7 @@ const BoxInformation: React.FC<BoxInformationProps> = ({ title, subTitle, data }
             <TitleSection 
               title={title}
               desc={subTitle}
-              titleClassName="mb-5 [&_*]:mx-[10px] [&_*]:font-light text-xl"
+              titleClassName="mb-5 [&_*]:mx-[10px] [&_*]:font-light text-xl break-words"
               descClassName="text-justify [&_*]:block [&_*]:mb-4"
             />
           </div>
