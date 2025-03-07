@@ -1,0 +1,3 @@
+.parent :global(.arrowbtn:hover) path {
+    stroke: var(--primary-blue);
+}

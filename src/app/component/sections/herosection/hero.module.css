@@ -1,0 +1,29 @@
+.herocontainer :global(.slick-dots) {
+  top: 0;
+  bottom: unset;
+  left: 100%;
+  padding-left: 20px;
+  display: flex !important;
+  flex-direction: column;
+  height: 100%;
+  width: 10px;
+  gap: 15px;
+}
+.herocontainer :global(.slick-dots) li {
+  flex: 1;
+  margin: 0;
+  width: 4px;
+  padding-left: 5px;
+}
+.herocontainer :global(.slick-dots) li button::before {
+  content: none;
+}
+.herocontainer :global(.slick-dots) li button {
+  background: var(--primary-gray);
+  height: 100%;
+  width: 4px;
+  padding: 0;
+}
+.herocontainer :global(.slick-dots) li:global(.slick-active) button {
+  background: var(--primary-blue);
+}
