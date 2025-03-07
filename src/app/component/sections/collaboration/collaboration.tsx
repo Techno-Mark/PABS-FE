@@ -10,7 +10,7 @@ interface CollaborationProps{
   ctaUrl: string;
 }
 
-const Collaboration: React.FC<CollaborationProps> = ({ title, subTitle, imageurl, ctaUrl }) => {
+const Collaboration: React.FC<CollaborationProps> = ({ title, subTitle, imageurl}) => {
   return (
     <section className="py-10 xl:py-20">
       <div className="container mx-auto ">

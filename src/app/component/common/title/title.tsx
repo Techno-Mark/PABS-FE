@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./title.module.css";
 
 interface TitleSectionProps {
   title?: string;

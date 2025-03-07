@@ -9,6 +9,15 @@ interface ContactFormProps {
     desc: string;
 }
 
+type FormErrors = {
+    fullName?: string;
+    email?: string;
+    mobileNumber?: string;
+    companyName?: string;
+    message?: string;
+  };
+  
+
 const ContactForm: React.FC<ContactFormProps> = ({ title, subtitle, desc }) => {
     const [formData, setFormData] = useState({
         fullName: "",
@@ -19,13 +28,8 @@ const ContactForm: React.FC<ContactFormProps> = ({ title, subtitle, desc }) => {
         subscription: false
     });
 
-    const [errors, setErrors] = useState({
-        fullName: "",
-        email: "",
-        mobileNumber: "",
-        companyName: "",
-        message: ""
-    });
+    const [errors, setErrors] = useState<FormErrors>({});
+
 
     const formRef = useRef<HTMLDivElement>(null);
 
@@ -44,27 +48,31 @@ const ContactForm: React.FC<ContactFormProps> = ({ title, subtitle, desc }) => {
         }
     };
 
-    const validate = () => {
-        const newErrors: any = {};
+    const validate = (): FormErrors => {
+        const newErrors: FormErrors = {}; // Now it allows missing fields
+    
         if (!formData.fullName) newErrors.fullName = "Full name is required";
         if (!formData.email) newErrors.email = "E-mail is required";
-        if (!/\S+@\S+\.\S+/.test(formData.email)) newErrors.email = "Invalid e-mail address";
+        else if (!/\S+@\S+\.\S+/.test(formData.email)) newErrors.email = "Invalid e-mail address";
         if (!formData.mobileNumber) newErrors.mobileNumber = "Mobile Number is required";
         else if (!/^\d{10}$/.test(formData.mobileNumber)) newErrors.mobileNumber = "Mobile Number must be exactly 10 digits";
         if (!formData.companyName) newErrors.companyName = "Company name is required";
         if (formData.message.length > 400) newErrors.message = "Message cannot exceed 400 characters";
+    
         return newErrors;
     };
+    
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         const validationErrors = validate();
         if (Object.keys(validationErrors).length > 0) {
-            setErrors(validationErrors);
+            setErrors(validationErrors); // ✅ Now TypeScript won't complain
             return;
         }
         alert("Form submitted successfully!");
     };
+    
 
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
@@ -141,7 +149,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ title, subtitle, desc }) => {
                             </div>
 
                             <p className="text-base font-bold text-[var(--primary-yellow)]">Your data is secure with us</p>    
-                            <Button text="Request a Call Back" className="!w-full !py-3 justify-center text-2xl"/>
+                            <Button type="submit" text="Request a Call Back" className="!w-full !py-3 justify-center text-2xl"/>
                             <Button text="Privacy" href="/home" className="bg-transparent !p-0 !font-normal !text-base underline"/>
                         </form>
                     </div>
