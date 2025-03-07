@@ -70,7 +70,7 @@ const KnowledgeCenter: React.FC<KnowledgeCenterProps> = ({ title, data }) => {
       </div>
       <TitleSection 
           title={title}
-          titleClassName="absolute top-10 text-white text-3xl font-bold text-center w-full z-10"
+          titleClassName="absolute top-16 text-white text-3xl font-bold text-center w-full z-10"
       />
       <div className="relative z-9 h-full">
         <Slider {...settings} className="h-full">

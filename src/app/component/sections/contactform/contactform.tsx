@@ -85,15 +85,15 @@ const ContactForm: React.FC<ContactFormProps> = ({ title, subtitle, desc }) => {
     }, [formRef]);
 
     return (
-        <section className="py-20">
+        <section className="py-20 bg-none md:bg-[url('/images/boxbackground.png')] bg-[length:60%_100%] bg-right bg-no-repeat">
             <div className="container mx-auto">
                 <div className="flex flex-col md:flex-row items-center max-w-6xl gap-12 mx-auto">
                     <div className="flex-1">
-                        <TitleSection title={title} />
+                        <TitleSection title={title} titleClassName="mb-5"/>
                         <p className="text-lg xl:text-3xl font-bold text-black/50">{subtitle}</p>
-                        <p className="text-2xl xl:text-4xl font-bold text-black [&_*]:text-[#0078C8]" dangerouslySetInnerHTML={{ __html: desc }} />
+                        <p className="text-2xl xl:text-4xl 3xl:text-5xl font-bold text-black [&_*]:text-[#0078C8]" dangerouslySetInnerHTML={{ __html: desc }} />
                     </div>
-                    <div className="flex-1 p-12 rounded-lg bg-[#08243F] max-w-xl" ref={formRef}>
+                    <div className="flex-1 p-12 rounded-lg shadow-[0px_0px_40px_20px_#0078C81A] bg-[var(--ternary-bg)] max-w-xl" ref={formRef}>
                         <form onSubmit={handleSubmit} className="space-y-4">
                             <div>
                                 <div className="p-3 border border-white/60 rounded-sm">
@@ -141,7 +141,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ title, subtitle, desc }) => {
                                     id="subscription"
                                     checked={formData.subscription}
                                     onChange={handleChange}
-                                    className="w-5 h-5 text-blue-100 border-white rounded focus:ring-blue-500"
+                                    className="w-5 h-5 bg-transparent text-blue-100 border-white rounded focus:ring-blue-500"
                                 />
                                 <label htmlFor="subscription" className="ml-2 text-sm font-normal text-white">
                                     Subscription

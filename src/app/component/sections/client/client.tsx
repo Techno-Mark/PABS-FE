@@ -57,7 +57,7 @@ const ClientSpeak: React.FC<ClientSpeakProps> = ({ title, data }) => {
                                 <p className="text-2xl xl:text-4xl font-bold text-[var(--primary-color)] [&_*]:text-[#0078C8]" dangerouslySetInnerHTML={{ __html: client.testimonial }} />
                                 <p className="relative pl-5 text-lg xl:text-xl font-normal text-justify text-[var(--secondary-black)] before:absolute before:-left-0 before:top-0 before:w-1 before:h-10 before:bg-[var(--primary-blue)] [&_*]:text-[#0078C8] [&_*]:font-bold mt-4" dangerouslySetInnerHTML={{ __html: client.subtext }} />
                                 <div className="mt-6">
-                                    <h4 className="text-2xl font-semibold text-[var(--primary-blue)]">{client.name}</h4>
+                                    <p className="text-2xl font-semibold text-[var(--primary-blue)]">{client.name}</p>
                                     <p className="text-2xl font-normal text-[var(--secondary-black)]">{client.designation}</p>
                                 </div>
                             </div>
