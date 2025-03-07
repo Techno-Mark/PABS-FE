@@ -1,0 +1,9 @@
+.knowledge :global(.slick-list),
+.knowledge :global(.slick-track),
+.knowledge :global(.slick-slide > div) {
+  height: 100%;
+}
+.knowledge :global(.slick-slide.slick-current .singleslide::before),
+.knowledge :global(.slick-slide:hover .singleslide::before) {
+  background-color: rgba(0, 0, 0, 0.3);
+}

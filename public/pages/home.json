@@ -1,0 +1,361 @@
+{
+  "title": "Home Page",
+  "metaTitle": "New Pabs Meta Title",
+  "metaDescription": "New Pabs Meta Desc",
+  "metaKeywords": "New Pabs Meta Keywords",
+  "formatData": [
+    {
+      "Hero Sections": {
+        "sliderData": [
+          {
+            "headingText": "UNLOCK NEW GROWTH WITH SCALABLE ACCOUNTING SOLUTIONS",
+            "subtext": "Simplify your finances with our expert guidance and personalized solutions. Lorem Ipsum is simply dummy text of the printing.",
+            "imageUrl": "/images/home.png",
+            "ctaText": "Get Started",
+            "ctaUrl": "/home"
+          },
+          {
+            "headingText": "BOOST YOUR BUSINESS WITH OUR FINANCIAL EXPERTISE",
+            "subtext": "We provide tailored financial solutions to support your growth.",
+            "imageUrl": "/images/home.png",
+            "ctaText": "Get Started",
+            "ctaUrl": "/"
+          },
+          {
+            "headingText": "EXPERT ACCOUNTING FOR SCALABLE SUCCESS",
+            "subtext": "Maximize efficiency and drive profits with expert accounting services.",
+            "imageUrl": "/images/home.png",
+            "ctaText": "Get Started",
+            "ctaUrl": "/"
+          }
+        ]
+      }
+    },
+    {
+      "trust section": {
+        "icons": [
+          {
+            "icon": "/images/yahoo.png"
+          },
+          {
+            "icon": "/images/intuit.png"
+          },
+          {
+            "icon": "/images/cfo.png"
+          },
+          {
+            "icon": "/images/sage.png"
+          },
+          {
+            "icon": "/images/cision.png"
+          },
+          {
+            "icon": "/images/smallbusiness.png"
+          },
+          {
+            "icon": "/images/sageintact.png"
+          },
+          {
+            "icon": "/images/quickbooksself.png"
+          },
+          {
+            "icon": "/images/iso27001.png"
+          },
+          {
+            "icon": "/images/wsj.png"
+          },
+          {
+            "icon": "/images/quickbook.png"
+          },
+          {
+            "icon": "/images/seekingalpha.png"
+          },
+          {
+            "icon": "/images/iso9001.png"
+          },
+          {
+            "icon": "/images/ap.png"
+          },
+          {
+            "icon": "/images/imda.png"
+          },
+          {
+            "icon": "/images/mda.png"
+          },
+          {
+            "icon": "/images/smallbusinessfirm.png"
+          }
+        ],
+        "title": "Trusted By 10,000+ Companies Around The World",
+        "subTitle": "Certifications<span>|</span>Memberships & Recognitions<span>|</span>Media Mentions"
+      }
+    },
+    {
+      "Box information": {
+        "data": [
+          {
+            "title": "Years of Experience",
+            "number": "15+"
+          },
+          {
+            "title": "Happy Customers",
+            "number": "4000+"
+          }
+        ],
+        "title": "ACCURACY<span>|</span>AGILITY<span>|</span>RESILIENCE",
+        "subTitle": "<span>PABS Australia, a leading blended shore outsourced accounting firm, has a proven track record of helping accounting firms and enterprises increase productivity, enhance profitability, build stronger processes and explore new growth avenues.</span> <span>We bring rich accounting experience and deep domain expertise at our disposal to help Australian accounting firms and enterprises become even more competitive by scaling their services through flexible resourcing. With immediate access to a team of accountants trained in Australian standards, we enhance your capacity to deliver high-quality outcomes without added overhead.</span> <span> Our team of over 1,000 skilled accountants ensures precise, timely financial results, positioning your business for improved profitability, efficiency, and competitiveness. Partner with us to transform your financial management with unmatched accuracy, governance, and traceability in every aspect, ensuring a seamless and profitable operational experience.</span>"
+      }
+    },
+    {
+      "services": {
+        "title": "OUR SERVICES",
+        "card": [
+          {
+            "heading": "Marketing",
+            "imageUrl": "/images/meeting.png",
+            "points": "<li>Digital Marketing</li><li>Lead generation</li><li>Branding & Brand Activaiton</li>"
+          },
+          {
+            "heading": "Recruitment",
+            "imageUrl": "/images/meeting.png",
+            "points": "<li>Digital Marketing</li><li>Lead generation</li><li>Branding & Brand Activaiton</li>"
+          },
+          {
+            "heading": "Finance & Accounting ",
+            "imageUrl": "/images/person.png",
+            "points": "<li>Digital Marketing</li><li>Lead generation</li><li>Branding & Brand Activaiton</li>"
+          },
+          {
+            "heading": "Digital Transformation",
+            "imageUrl": "/images/meeting.png",
+            "points": "<li>Digital Marketing</li><li>Lead generation</li><li>Branding & Brand Activaiton</li>"
+          },
+          {
+            "heading": "Marketing",
+            "imageUrl": "/images/meeting.png",
+            "points": "<li>Digital Marketing</li><li>Lead generation</li><li>Branding & Brand Activaiton</li>"
+          },
+          {
+            "heading": "Recruitment",
+            "imageUrl": "/images/meeting.png",
+            "points": "<li>Digital Marketing</li><li>Lead generation</li><li>Branding & Brand Activaiton</li>"
+          }
+        ]
+      }
+    },
+    {
+      "industry": {
+        "data": [
+          {
+            "heading": "Automotive",
+            "text": "Tracking parts, controlling inventory, purchasing, selling orders, and financial...",
+            "imageUrl": "/images/automative.png",
+            "ctaUrl": "/"
+          },
+          {
+            "heading": "Retail",
+            "text": "Overcome the inherent complexities of retail accounting and effectively maintain",
+            "imageUrl": "/images/retail.png",
+            "ctaUrl": "/"
+          },
+          {
+            "heading": "Franchises",
+            "text": "We offer tailor-made service and solutions for small and multi-location franchises...",
+            "imageUrl": "/images/franchise.png",
+            "ctaUrl": "/"
+          },
+          {
+            "heading": "Restaurant",
+            "text": "Remove operational inefficiencies and address rising supply costs with robust...",
+            "imageUrl": "/images/restaurant.png",
+            "ctaUrl": "/"
+          },
+          {
+            "heading": "Automotive",
+            "text": "Tracking parts, controlling inventory, purchasing, selling orders, and financial...",
+            "imageUrl": "/images/automative.png",
+            "ctaUrl": "/"
+          },
+          {
+            "heading": "Retail",
+            "text": "Overcome the inherent complexities of retail accounting and effectively maintain financial...",
+            "imageUrl": "/images/retail.png",
+            "ctaUrl": "/"
+          },
+          {
+            "heading": "Franchises",
+            "text": "We offer tailor-made service and solutions for small and multi-location franchises, ensuring...",
+            "imageUrl": "/images/franchise.png",
+            "ctaUrl": "/"
+          },
+          {
+            "heading": "Restaurant",
+            "text": "Remove operational inefficiencies and address rising supply costs with robust...",
+            "imageUrl": "/images/restaurant.png",
+            "ctaUrl": "/"
+          }
+        ],
+        "title": "INDUSTRIES",
+        "subTitle": "We offer top-tier outsourced accounting services across diverse industries, guaranteeing impeccable financial records. Leveraging extensive industry expertise and accounting experience, we customise our solutions to meet your unique needs, enhancing financial management and driving your business forward."
+      }
+    },
+    {
+      "technology": {
+        "icons": [
+          {
+            "icon": "/images/tech1.png"
+          },
+          {
+            "icon": "/images/tech2.png"
+          },
+          {
+            "icon": "/images/tech3.png"
+          },
+          {
+            "icon": "/images/tech4.png"
+          },
+          {
+            "icon": "/images/tech5.png"
+          },
+          {
+            "icon": "/images/tech6.png"
+          },
+          {
+            "icon": "/images/tech7.png"
+          },
+          {
+            "icon": "/images/tech8.png"
+          },
+          {
+            "icon": "/images/tech9.png"
+          },
+          {
+            "icon": "/images/tech10.png"
+          },
+          {
+            "icon": "/images/tech11.png"
+          },
+          {
+            "icon": "/images/tech12.png"
+          },
+          {
+            "icon": "/images/tech13.png"
+          },
+          {
+            "icon": "/images/tech14.png"
+          },
+          {
+            "icon": "/images/tech15.png"
+          },
+          {
+            "icon": "/images/tech16.png"
+          },
+          {
+            "icon": "/images/tech17.png"
+          },
+          {
+            "icon": "/images/tech18.png"
+          },{
+            "icon": "/images/tech1.png"
+          },
+          {
+            "icon": "/images/tech2.png"
+          },
+          {
+            "icon": "/images/tech3.png"
+          },
+          {
+            "icon": "/images/tech4.png"
+          },
+          {
+            "icon": "/images/tech5.png"
+          },
+          {
+            "icon": "/images/tech6.png"
+          },
+          {
+            "icon": "/images/tech7.png"
+          },
+          {
+            "icon": "/images/tech8.png"
+          }
+        ],
+        "title": "TECHNOLOGY AGNOSTIC",
+        "subTitle": "<span>Our technology-agnostic approach distinguishes us with unmatched adaptability, agility, and reliability. Having worked with all major bookkeeping, payroll, tax, and BAS software, we don’t play favourites when delivering top-notch services.</span><span>If your preferred software isn’t listed, there’s no need to worry. Our certified professionals effortlessly integrate with your chosen tools, offering you strategic advantages, much-needed flexibility, and unwavering reliability.</span>"
+      }
+    },
+    {
+      "collaboration": {
+        "title": "Collaborate with the <span>expert</span> team your business <span>deserves</span>",
+        "subTitle": "Are accounting and bookkeeping stressing you out? Start a free trial and learn how PABS outsourcing services can take the financial stress off your plate for good.",
+        "imageurl": "/images/bussineman.png",
+        "ctaUrl": "/"
+      }
+    },
+    {
+      "Client Speak": {
+        "data": [
+          {
+            "name": "Michael",
+            "designation": "Owner, AOAO Beach Villas",
+            "testimonial": "<span>PABS</span> Provides Exceptional Accounting Services",
+            "subtext": "We've partnered with <span>PABS</span> for over three years, and their expertise has been invaluable. Their knowledgeable and professional team has streamlined our financial processes, ensuring accuracy and compliance. Thanks to their diligent work, we can focus on growing our business, knowing our finances are in excellent hands. Highly recommend <span>PABS</span> for reliable accounting services.",
+            "videourl": "/images/client.mp4"
+          },
+          {
+            "name": "Michael john",
+            "designation": "Owner, AOAO Beach Villas",
+            "testimonial": "PABS Provides Exceptional Accounting Services",
+            "subtext": "We've partnered with PABS for over three years, and their expertise has been invaluable. Their knowledgeable and professional team has streamlined our financial processes, ensuring accuracy and compliance. Thanks to their diligent work, we can focus on growing our business, knowing our finances are in excellent hands. Highly recommend PABS for reliable accounting services.",
+            "videourl": "/images/client.mp4"
+          }
+        ],
+        "title": "CLIENT'S SPEAK"
+      }
+    },
+    {
+      "knowledge center": {
+        "data": [
+          {
+            "category": "PODCAST",
+            "text": "Listen, Learn, and Grow",
+            "imageurl": "/images/podcast.svg"
+          },
+          {
+            "category": "Blog",
+            "text": "Listen, Learn, and Grow",
+            "imageurl": "/images/blog.svg"
+          },
+          {
+            "category": "Webinar",
+            "text": "Listen, Learn, and Grow",
+            "imageurl": "/images/webinar.svg"
+          },
+          {
+            "category": "whitepaper",
+            "text": "Listen, Learn, and Grow",
+            "imageurl": "/images/whitepaper.svg"
+          },
+          {
+            "category": "Webinar",
+            "text": "Listen, Learn, and Grow",
+            "imageurl": "/images/webinar.svg"
+          },
+          {
+            "category": "whitepaper",
+            "text": "Listen, Learn, and Grow",
+            "imageurl": "/images/whitepaper.svg"
+          }
+        ],
+        "title": "KNOWLEDGE CENTER"
+      }
+    },
+    {
+      "Contact form": {
+        "title": "Get in Touch",
+        "subtitle": "Seeking personalized support?",
+        "desc": "Request a call from our <span>expert</span> team"
+      }
+    }
+  ]
+}
